@@ -1,0 +1,226 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+  }
+  
+  #header{
+    display:block;
+    padding-top:5px;
+    padding-left:1rem;
+    background: linear-gradient(
+      90deg,
+      white,
+      #000 
+    );
+    position: fixed;
+    width:100%;
+    border-bottom: 5px solid WHITE;
+  }
+  .tag h1{
+    margin-bottom:-0.1px;
+    font-size:40px;
+  }
+  #nav-bar{
+    /* display:block; */
+    text-align:right;
+    margin-top:-25px;
+    padding-bottom:12px;
+    padding-right:1rem;
+    
+  }
+  .nav-link{
+    text-decoration:none;
+    color:white;
+    margin: 0 10px;
+  }
+   /* view All  */
+  .nav-link1{
+    text-decoration:none;
+    color:black;
+    margin: 0 10px;
+  }
+  .nav-link1:hover {
+    background-color:white;
+    color:black;
+    text-decoration: underline;
+    padding:3px;
+    border-radius:5px;
+  }
+  .nav-link:hover {
+    background-color:white;
+    color:black;
+    padding:3px;
+    border-radius:5px;
+  }
+  /* nirvan and p */
+  .in{
+    display:inline-block;
+    margin-bottom:2rem;
+  }
+  /* nirvan*/
+  .in h1{
+    font-size:50px;
+    margin-left:5rem;
+  }
+  /* peace */
+  .in p{
+    margin-left:12rem;
+    margin-bottom:3rem;
+  }
+  .on{
+    font-size:18px;
+    color:#dadada;
+  }
+  /* about us*/
+  .tag{
+    width:21rem;
+    margin-left:20%;
+    padding-top:8.7rem;
+    color:white;
+    
+  }
+
+  #pg1{
+    width:100%;
+    height:98%;
+    background: linear-gradient(
+      45deg,
+      #130000,
+      #b4030a,
+      #130000 85%
+    );
+    overflow-y:hidden;
+  }
+  .img1{
+    margin-left:50rem;
+    margin-top:-20rem;
+  }
+  h2{
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-size:35;
+    margin-right:auto;
+  }
+  .des{
+    padding-left :3rem;
+    padding-top: 0.8rem;
+  }
+
+  .pic p{
+    margin-top:-23px;
+    background-color:white;
+    border: 1px solid transparent;
+    opacity:80%;
+    padding-left:50px;
+    padding-right:59px;
+  }
+  .pic p:hover{
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  #prod{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  #pg2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin:auto;
+    padding-bottom:2rem;
+  }
+  .pic{
+    padding:20px;
+    margin:10px;  
+  }
+  #pg3{
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin:auto;
+    padding-bottom:2rem;
+  }
+  .p3{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:center;
+  }
+  iframe{
+    margin-left:50%;
+    margin-top:45px;
+  }
+  .pg4{
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin:auto;
+    padding-bottom:3rem;
+  }
+  @media (max-width:500px){
+    iframe{
+      width:300px;
+      margin-left:35rem;
+    }
+  }
+  
+  .aman{
+    margin-top:1rem;
+  }
+  .blog{
+    width: 90%;
+    padding-bottom:3rem;
+    margin:auto;
+    border-bottom: 2px solid black;
+  }
+  #footer{
+    width: 100%;
+    margin:auto;
+    padding-bottom:1.5rem;
+    background-color:#111111;
+    color:white;
+  }
+  .reg{
+    width: 90%;
+    padding-bottom:1rem;
+    margin:auto;
+    overflow: hidden;
+  }
+  .logo{
+    background-color:white;
+    border-radius: 100%;
+  }
+  .social{
+    width: 50%;
+    margin:auto;
+    display:flex;
+    flex-flow: row-wrap;
+    justify-content:center;
+    padding:15px;
+  }
+  .regimg{
+    opacity:40%;
+    padding:10;
+    display:block;
+    margin:auto;
+    width:700px;
+    padding-top:30px;
+  }
+  .reginfo{
+    position:absolute;
+    width:30%;
+    display:block;
+    margin:auto 30%;
+    margin-top:-15rem;
+    
+  }
+  #email{
+    background-color:transparent;
+  }
+  input::placeholder{
+    color:black;
+  }
+  #submit{
+    background:black;
+    margin:5px;
+    color:white;
+    border: 2px solid transparent;
+  }
